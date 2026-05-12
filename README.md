@@ -16,4 +16,9 @@
 -- Suggestion video container(Completed)
 --- Suggestion video card(Completed)
 
-![Project Screenshot](./public/Screenshot1.png)
+<table>
+  <tr>
+    <td><img src="./public/Screenshot1.png" width="200"></td>
+    <td><img src="./public/Screenshot2.png" width="200"></td>
+  </tr>
+</table>
