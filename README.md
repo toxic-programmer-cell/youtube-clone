@@ -1,5 +1,17 @@
 # Status
 
-- Filter Container button of youtube(<FilterContainer.jsx />) -Completed
+- Header
+-- Toggel Menu & logo
+-- Search bar
 
--video paused at (1:31:58)
+- Body
+-- Sidebar
+-- Main video container
+--- Filter tag
+--- Video continer
+---- Video card
+
+- Watch video
+-- Play video container
+-- Suggestion video container
+--- Suggestion video card
