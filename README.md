@@ -15,3 +15,5 @@
 -- Play video container(Completed)
 -- Suggestion video container(Completed)
 --- Suggestion video card(Completed)
+
+![Project Screenshot](./public/Screenshot1.png)
