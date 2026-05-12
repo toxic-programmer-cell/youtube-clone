@@ -1,17 +1,17 @@
 # Status
 
 - Header
--- Toggel Menu & logo
--- Search bar
+-- Toggel Menu & logo(Completed)
+-- Search bar(In-Completed)
 
 - Body
--- Sidebar
--- Main video container
---- Filter tag
---- Video continer
----- Video card
+-- Sidebar(Completed)
+-- Main video container(Completed)
+--- Filter tag(In-Completed)
+--- Video continer(Completed)
+---- Video card(Completed)
 
 - Watch video
--- Play video container
--- Suggestion video container
---- Suggestion video card
+-- Play video container(Completed)
+-- Suggestion video container(Completed)
+--- Suggestion video card(Completed)
