@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { closeMenu } from "../redux/features/toggleMenuSlice";
-import { useSearchParams } from "react-router-dom";
+import { Link, useSearchParams } from "react-router-dom";
 import FilterContainer from "../components/FilterContainer";
 import WatchVideoDetail from "../components/WatchVideoDetail";
 import SuggestionVideoCard from "../components/SuggestionVideoCard";
@@ -43,7 +43,9 @@ const WatchVideo = () => {
         {videos && (
           <div>
             {videos.map((video) => (
-              <SuggestionVideoCard videos={video} key={video.id} />
+              <Link key={video?.video_id || video?.title} to={`/watch?v=${video.video_id}`}>
+              <SuggestionVideoCard videos={video} />
+              </Link>
             ))}
           </div>
         )}
