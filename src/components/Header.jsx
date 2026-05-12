@@ -5,7 +5,7 @@ import { FaCircleUser } from "react-icons/fa6";
 import logo from "../assets/images/YouTube_logo.png";
 import { useDispatch } from "react-redux";
 import { toggleMenu } from "../redux/features/toggleMenuSlice";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const dispatch = useDispatch();
@@ -23,9 +23,9 @@ const Header = () => {
           className="cursor-pointer"
           onClick={() => handleToggleMenu()}
         />
-        {/* <Link to="/"> */}
+        <Link to="/">
           <img className="h-7" src={logo} alt="logo" />
-        {/* </Link> */}
+        </Link>
       </div>
 
       {/* CENTER (absolute center of screen) */}
